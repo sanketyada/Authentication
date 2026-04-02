@@ -1,0 +1,32 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Here we studied about multiple ways to do authentication in Mern based Application.",
+  "homepage": "https://github.com/sanketyada/Authentication#readme",
+  "bugs": {
+    "url": "https://github.com/sanketyada/Authentication/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanketyada/Authentication.git"
+  },
+  "license": "ISC",
+  "author": "Sanket",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "http-status": "^2.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.14"
+  }
+}
